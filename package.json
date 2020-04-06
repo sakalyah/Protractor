@@ -1,0 +1,13 @@
+{
+  "dependencies": {
+    "protractor": "^5.4.3",
+    "jasmine-data-provider": "2.2.0",
+    "protractor-jasmine2-html-reporter": "^0.0.7"
+  },
+  "scripts": {
+    "webdriver": "./node_modules/.bin/webdriver-manager update",
+    "webdrivers": "./node_modules/.bin/webdriver-manager start",
+    "protractor": "./node_modules/.bin/protractor conf.js",
+    "start": "npm run webdriver && npm run webdrivers start"
+  }
+}
